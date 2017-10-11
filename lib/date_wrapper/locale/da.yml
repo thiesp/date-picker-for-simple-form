@@ -1,0 +1,5 @@
+da:
+  date:
+    formats:
+      default: "%-d.%-m.%Y"
+      datepicker: "d.m.yyyy"

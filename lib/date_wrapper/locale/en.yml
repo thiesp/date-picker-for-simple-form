@@ -1,0 +1,4 @@
+en:
+  errors:
+    messages:
+      wrong_time_format: wrong time format

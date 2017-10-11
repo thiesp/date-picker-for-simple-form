@@ -1,0 +1,12 @@
+$ ->
+  assign_datepickers()
+
+@assign_datepickers = (target = 'body') ->
+  $.fn.datepicker.defaults.format = "<%= I18n.t('date.formats.datepicker') %>";
+  $(target).find('div.datepicker').data({behaviour: "datepicker"}).datepicker({
+    format: "<%= I18n.t('date.formats.datepicker') %>",
+    dateFormat: "<%= I18n.t('date.formats.datepicker') %>",
+    autoclose: true,
+    language: '<%= I18n.locale %>',
+    weekStart: 1
+  })

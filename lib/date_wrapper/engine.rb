@@ -1,4 +1,4 @@
-module TimeWrapper
+module DateWrapper
   module Rails
     class Engine < ::Rails::Engine
 
